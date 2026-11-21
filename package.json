@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "benchmark:triage:test": "node scripts/benchmark-triage.test.js",
-    "frontend:budget": "node scripts/frontend-budget.js"
+    "frontend:budget": "node scripts/frontend-budget.js",
+    "check:release-compatibility": "node scripts/release-compatibility.js",
+    "secret-scan:artifacts": "bash scripts/artifact-secret-scan.sh --mode artifacts"
   }
 }
